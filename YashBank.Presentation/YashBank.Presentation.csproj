@@ -49,5 +49,23 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\YashBank.BusinessLogicLayer\YashBank.BusinessLogicLayer.csproj">
+      <Project>{1e6e7d3b-b095-4239-a0e9-b3356edd212a}</Project>
+      <Name>YashBank.BusinessLogicLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YashBank.Configuration\YashBank.Configuration.csproj">
+      <Project>{24f8ef83-4177-4f97-be34-87f74e18cd36}</Project>
+      <Name>YashBank.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YashBank.Entities\YashBank.Entities.csproj">
+      <Project>{526309bb-dbb3-49d7-a933-c76518bca991}</Project>
+      <Name>YashBank.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\YashBank.Exceptions\YashBank.Exceptions.csproj">
+      <Project>{6d3c9c9c-b9e4-4e80-bc0f-4819118af1f7}</Project>
+      <Name>YashBank.Exceptions</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
